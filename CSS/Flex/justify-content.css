@@ -1,0 +1,13 @@
+/* 
+What does the justify-content property do?
+It is used to align the flex items; in our case, the product cards 
+*/
+.products {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

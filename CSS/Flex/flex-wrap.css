@@ -1,0 +1,23 @@
+/* 
+What is the flex-wrap property?
+It specifies whether the flex items should wrap or not 
+*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  
