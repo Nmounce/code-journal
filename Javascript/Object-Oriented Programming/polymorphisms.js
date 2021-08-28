@@ -73,11 +73,12 @@
                         response = '60 - 69';
                         break;
                     case 'F':
-                        response = '< 60';
+                        response = '0 -59';
                         break;
+                    default:
+                        response = '0
+                        break '
                 }
-                // TODO: Add logic here to return range as a string
-                return response(range.toString());
             }
         };
     }
