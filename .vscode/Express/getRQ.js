@@ -1,3 +1,8 @@
+Get sends JSON to client
+
+Pass info conditionally to a get route (include id in url to retrieve specific id) ((request paramter)) or send variable in query to server in the query (specify with ?nameofvaribale = paramter: localhost.3001/log-emoji/emoji?sort=asc)
+
+
 const express = require('express');
 // TODO: Require the json file located in `/db`
 
