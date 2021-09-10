@@ -15,8 +15,9 @@ on DATA_THEY_HAVE_IN_COMMON;
 
 
 access mySQl in shell using < mysql - v >
+    mysql - u root - p //run sql in server 
 
-    run commands
+run commands
 for mysql: #1 - running query in shell & # 2 running an sql file
 
 //in powershell

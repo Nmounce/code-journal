@@ -1,0 +1,3 @@
+npm i nodemon  --dont have to kill your serever to re-reun
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"

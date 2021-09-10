@@ -1,0 +1,13 @@
+schema creates database and structures it sets up files, input all table info on schema files
+seeds file populates the database with a placeholder or seed
+    run seed with: source seeds.sql (pulls seeds.sql file)
+
+start sql in terminal: mysql -u root -p 
+
+DESCRIBE tablename: shows schema for table in terminal 
+
+select all items from a table: SELECT * FROM tablename  
+
+
+you can use AUTO INCRIMENT to add a number value to listed items (id's,
+position, etc.)[ex. id INT NOT NULL AUTO_INCREMENT]
