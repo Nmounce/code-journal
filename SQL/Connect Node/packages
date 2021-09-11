@@ -1,3 +1,6 @@
-npm i nodemon  --dont have to kill your serever to re-reun
+npm i -G nodemon  --dont have to kill your serever to re-reun
+//IN SCRIPTS use "run": "
     "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5" const mysql2 = require("mysql2")
+
+npm run run 

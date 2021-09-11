@@ -1,4 +1,7 @@
-Structured Query Language - query language that allows us to interact with a database through queries(doesnt run through web server).
+PW Justfuckingwork1!
+
+
+Structured Query Language - query language that allows us to interact with a database through queries(doesnt run through web server).Good for working with huge data sets.There is functionality built in that makes working with big data sets easy.You can use queries to break data into smaller chucks.
 
 CRUD = create, read, update, delete.
 

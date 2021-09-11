@@ -10,4 +10,29 @@ select all items from a table: SELECT * FROM tablename
 
 
 you can use AUTO INCRIMENT to add a number value to listed items (id's,
-position, etc.)[ex. id INT NOT NULL AUTO_INCREMENT]
+position, etc.)[ex. id INT NOT NULL AUTO_INCREMENT];
+
+check the schema of an existing table: DESCRIBE tablename  
+
+show specific rows from a table: SELECT fieldname, fieldname2 FROM tablename
+
+add a parameter to allow for narrowing results: SELECT fieldname, fieldname2 FROM tablename WHERE MONTH(birth_date) = 9; //only shows people whos bday is september
+
+limit number of records that show: SELECT fieldname, fieldname2 FROM tablename WHERE MONTH(birth_date) = 9 LIMIT 25 //only shows first 25 records
+
+navigate out of shell: exit;
+
+variables are marked with a "?", followed by the variable parameter:
+    ex. app.get('/students/:id', (req, res) => {
+        db.query('SELECT * FROM students WHERE id = ?', req.params.id,
+        function (err, results) {
+            res.json(results);
+        });
+    })
+    //multiple params can be put into an array [a, b]
+
+
+functions that help analyze data: aggregate functions (get specific info out of a database)
+ex. SELECT department, COUNT(id) AS num_courses FROM course_names GROUP BY department;
+
+join: SELECT * FROM columnname1 JOIN columnname2 ON columnname1.columnname2 = columnname2.id; 
