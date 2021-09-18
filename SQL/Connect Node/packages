@@ -4,3 +4,11 @@ npm i -G nodemon  --dont have to kill your serever to re-reun
     "mysql2": "^2.2.5" const mysql2 = require("mysql2")
 
 npm run run 
+
+
+
+
+CREATE package.json:
+
+npm init -y
+SQL: npm i mysql2, 

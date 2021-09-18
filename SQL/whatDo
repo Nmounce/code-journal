@@ -35,4 +35,7 @@ variables are marked with a "?", followed by the variable parameter:
 functions that help analyze data: aggregate functions (get specific info out of a database)
 ex. SELECT department, COUNT(id) AS num_courses FROM course_names GROUP BY department;
 
-join: SELECT * FROM columnname1 JOIN columnname2 ON columnname1.columnname2 = columnname2.id; 
+join: SELECT * FROM columnname1 JOIN columnname2 ON columnname1.columnname2 = columnname2.id;
+
+
+Relationships: coorelation of data (tables relating to each other)

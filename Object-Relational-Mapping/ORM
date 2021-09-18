@@ -1,0 +1,20 @@
+Object-Relational Mapping
+
+Code is organized using objects instead of functions
+Can inherit properties from other objects 
+Multiple objects can be created from the same blueprint classes or constructor
+functions. 
+Allows us to set up obj methods to run generic SQL queries, structure objects to
+mimic how the data is stated in the database 
+
+
+//create
+//read
+//update = put
+//delete
+
+
+
+Start with models (draw out), Then build out routes- get 1 subject done at a
+time (traveller, then location, then trips)
+

@@ -1,0 +1,12 @@
+
+
+git init 
+heroku create
+git push heroku master 
+in heroku(webpage) create database by going to file -> resources -> find more
+add ons -> JawsDB MySQL
+update connection information (add JawsDB url) -> in connection file, add: if
+(process.env.JAWSDB_URL) {
+    sequelize = new Sequelize(process.env.JAWSDB_URL)
+}
+}
