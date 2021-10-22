@@ -1,0 +1,32 @@
+MVC (Model-View-Controller) "separation of concerns" framework is an
+architectural pattern that separates an application into three main logical
+components Model (BOH), View (FOH), and Controller(SERVER).
+
+Model- stores data and data-related logic 
+View- is in charge of Ui/UX concerns or what the user will see or interact with
+Controller- interface between the models and the views (routes). [routes files
+go under controller directory]
+
+Separates the business logic and presentation layer from each other.
+
+Used to implement user interfaces, data, and controlling logic. It emphasizes a
+separation between the softwares business logic and display.
+
+Template engine allows us to make an HTML template in markup that allows us to
+combine data dynamically. Allows us to use placeholders, rendering, loops, etc.
+Allows us to separate concerns and prevents repeats in code, easy to maintain.
+
+Handlebars.js is a template engine that allows us to use the mustache template {{handlebars}}
+language. logic-less (all done in controllers) compiles templates into single
+HTMl file (no DOM access). JUST RENDERS TEMPLATES.
+stack with node: express, sequelize, handlebars
+
+const exphbs = require('express-handlebars');
+const hbs = exphbs.create({});
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
+
+models structure data and provide interface to the data
+
+npm i express-handlebars

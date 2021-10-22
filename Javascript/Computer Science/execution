@@ -1,0 +1,18 @@
+Computer Science- study of computational systems- how computers and programs
+work 
+
+BigO notation describes the complexity of the algorithms that heps us describe
+how the algorithm works. O(growth-factor)
+
+Data structure- how data is stored
+
+
+Global vs. Functional
+
+Global- once function has resolved, it gets 'cleaned up' - js system goes back
+thru and removes from memory anything that has finished executing and is no
+longer needed.
+
+strict mode- function in global 'this' must be explicitly defined. 
+use strict is implicit in ES6- helps keep scope clean.
+

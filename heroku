@@ -1,0 +1,15 @@
+when you have a mysql database, add db name
+
+
+in command line:
+
+heroku create
+
+in heroku: settings, config view, open add jaws_db
+
+include db folder in schema file
+
+add to package.json file: "heroku-postbuild": "npm run seed"
+
+push to heroku using git push heroku master 
+

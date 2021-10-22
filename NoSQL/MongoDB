@@ -1,0 +1,6 @@
+Uses documents instead of tails (like mysql)
+
+NoSQL- used as a way to say that the database doesn't have intrinsic structure
+like MySQL (which has to have schema).
+
+Mongo can start storing documents in the collection that dont have to match.

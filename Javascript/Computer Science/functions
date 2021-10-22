@@ -1,0 +1,17 @@
+Higher order functions:
+are any function that takes in or returns a function (or
+takes in a callback)-- ie. promises, map, all array methods, express routes,
+event listeners, etc. they are what allow us to compose functions to do many
+things in a specific order or do many things (map). *Abstraction*
+
+
+Closures:
+A function that encapsulates some scope (constants inside of the function). Typically returns a way of interacting
+with the scope in the form of another function. 
+
+
+Factory functions: 
+Leverage closures rather than ORM. 
+function creates an object inside of the function that can not be accessed from
+outside of the closure other than thru the methods that are returned. Theres is
+no inheritance of the methods.(access scope inside closure only).

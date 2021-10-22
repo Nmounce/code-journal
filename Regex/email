@@ -1,0 +1,7 @@
+* The regex for checking if a string is an email is: `/.+\@.+\..+/`
+
+email: {
+    type: String,
+    match: [/.+@.+\..+/, "Please enter a valid e-mail address"],
+    isUnique: true,
+  },
